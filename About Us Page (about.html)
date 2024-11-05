@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Travel Recommendations</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Us Page Content -->
+  <main>
+    <h1>About Us</h1>
+    <p>We are a passionate team of travelers and developers committed to helping you discover the most exciting travel destinations based on your preferences. Our goal is to provide you with personalized travel recommendations that suit your interests, making travel planning easier and more enjoyable.</p>
+    <h2>Our Mission</h2>
+    <p>To inspire and assist travelers in exploring the world's most beautiful destinations, creating unforgettable experiences along the way.</p>
+  </main>
+</body>
+</html>
