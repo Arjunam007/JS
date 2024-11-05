@@ -1,11 +1,5 @@
 /project-folder
-  /images
-    beach1.jpg
-    beach2.jpg
-    temple1.jpg
-    temple2.jpg
-    country1.jpg
-    country2.jpg
+
   /css
     styles.css
   /js
