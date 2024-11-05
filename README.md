@@ -3,53 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Recommendation</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Travel Recommendations</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- Navigation bar -->
   <header>
-    <h1>Discover Your Next Travel Destination</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
   </header>
 
+  <!-- Home Page Content -->
   <main>
-    <div id="preferences-form">
-      <h2>Tell us about your preferences</h2>
-      <form id="user-preferences">
-        <label for="continent">Preferred Continent:</label>
-        <select id="continent">
-          <option value="Europe">Europe</option>
-          <option value="Asia">Asia</option>
-          <option value="North America">North America</option>
-          <option value="South America">South America</option>
-          <option value="Africa">Africa</option>
-        </select>
+    <section>
+      <h1>Welcome to Travel Recommendations</h1>
+      <p>Your ideal travel destination is just a click away! Explore top picks based on beaches, temples, and countries to help you plan your next adventure.</p>
+    </section>
 
-        <label for="climate">Preferred Climate:</label>
-        <select id="climate">
-          <option value="Tropical">Tropical</option>
-          <option value="Temperate">Temperate</option>
-          <option value="Cold">Cold</option>
-          <option value="Dry">Dry</option>
-        </select>
+    <!-- Beach Recommendation -->
+    <section>
+      <h2>Top Beach Destinations</h2>
+      <div class="images-container">
+        <img src="images/beach1.jpg" alt="Beach 1">
+        <img src="images/beach2.jpg" alt="Beach 2">
+      </div>
+    </section>
 
-        <label for="activity">Preferred Activity:</label>
-        <select id="activity">
-          <option value="Adventure">Adventure</option>
-          <option value="Relaxation">Relaxation</option>
-          <option value="Cultural">Cultural</option>
-        </select>
+    <!-- Temple Recommendation -->
+    <section>
+      <h2>Beautiful Temples to Explore</h2>
+      <div class="images-container">
+        <img src="images/temple1.jpg" alt="Temple 1">
+        <img src="images/temple2.jpg" alt="Temple 2">
+      </div>
+    </section>
 
-        <button type="submit">Get Recommendations</button>
-      </form>
-    </div>
-
-    <div id="recommendations" class="hidden">
-      <h2>Recommended Destinations</h2>
-      <div id="destination-cards"></div>
-    </div>
+    <!-- Country Recommendation -->
+    <section>
+      <h2>Must-Visit Countries</h2>
+      <div class="images-container">
+        <img src="images/country1.jpg" alt="Country 1">
+        <img src="images/country2.jpg" alt="Country 2">
+      </div>
+    </section>
   </main>
 
-  <script src="scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
-
