@@ -1,3 +1,5 @@
+Home Page (index.html)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,3 +58,4 @@
   <script src="js/scripts.js"></script>
 </body>
 </html>
+
